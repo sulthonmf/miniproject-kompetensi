@@ -1,6 +1,8 @@
 import axios from "axios";
 import { ProductForm } from "components/ProductForm";
 import { Layout } from "components/Layout";
+import React from "react";
+
 
 function NewPage() {
   return (

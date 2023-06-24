@@ -1,8 +1,9 @@
 import axios from "axios";
-import { Layout } from "components/Layout";
-import { ProductCard } from "components/ProductCard";
+import { Layout } from "../../components/Layout";
+import { ProductCard } from "../../components/ProductCard";
 import { Dropdown } from "flowbite-react";
 import { useEffect, useState } from "react";
+import React from "react";
 
 function ProductsPage({ products = [] }) {
   const [sortingOption, setSortingOption] = useState("");
@@ -77,7 +78,7 @@ function ProductsPage({ products = [] }) {
             type="search"
             id="default-search"
             className="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-            placeholder="Search Mockups, Logos..."
+            placeholder="Search Products..."
             value={searchKeyword} // Add this line
             onChange={(e) => setSearchKeyword(e.target.value)} // Add this line
             required

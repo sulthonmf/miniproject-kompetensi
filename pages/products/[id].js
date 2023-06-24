@@ -2,6 +2,8 @@ import axios from "axios";
 import { useRouter } from "next/router";
 import toast from "react-hot-toast";
 import { Layout } from "components/Layout";
+import React from "react";
+
 
 function ProductPage({ product }) {
   const router = useRouter();

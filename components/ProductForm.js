@@ -2,6 +2,8 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import toast from "react-hot-toast";
 import { useRouter } from "next/router";
+import React from "react";
+
 
 export function ProductForm() {
   const [product, setProduct] = useState({

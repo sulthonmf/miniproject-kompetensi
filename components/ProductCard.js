@@ -1,9 +1,11 @@
 import Link from "next/link";
+import React from "react";
+
 
 export function ProductCard({ product }) {
   return (
     // eslint-disable-next-line @next/next/link-passhref
-    <Link href={`/products/${product.id}`}>
+    <Link href={`/products/${product.id}`} data-testid="product-card">
       <div
         className="block p-6 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mb-3"
         key={product.id}
