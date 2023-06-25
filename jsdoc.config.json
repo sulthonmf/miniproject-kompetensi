@@ -1,0 +1,12 @@
+{
+    "source": {
+      "include": ["./pages/products"],
+      "includePattern": ".+\\.jsx?$",
+      "excludePattern": "(node_modules|docs)"
+    },
+    "opts": {
+      "recurse": true,
+      "destination": "./docs"
+    }
+  }
+  

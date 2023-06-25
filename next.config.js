@@ -1,5 +1,6 @@
 module.exports = {
   reactStrictMode: true,
+  profiler: true,
   async redirects() {
     return [
       {

@@ -1,0 +1,5 @@
+Profiling,
+Integrasi,
+Dokumentasi
+
+npx cypress run --record --key 72963f48-56bf-49b3-b74f-8ac181242815
